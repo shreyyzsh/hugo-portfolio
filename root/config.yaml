@@ -1,0 +1,122 @@
+baseURL: "/"
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# googleAnalytics:
+
+params:
+  env: production
+  title: Shreyy
+  description: "A personal portfolio and blog site built using Hugo."
+  keywords: ['Blog', 'Portfolio']
+  author: Shreyy
+  images: []
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto 
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon.ico"
+    favicon32x32: "favicon.ico"
+    apple_touch_icon: "favicon.ico"
+    safari_pinned_tab: "favicon.ico"
+
+  # home-info mode
+  homeInfoParams:
+    Title: "I am Shreyy"
+    Content: "A pre-final CS undergrad gaslighting machines using my skills in Python, JS, and C++"
+
+  socialIcons:
+    # - name: linkedin
+    #   url: "https://linkedin.com/in/shreyyzsh"
+    - name: github
+      url: "https://github.com/shreyyzsh"
+    - name: x
+      url: "https://x.com/shreyyzsh"
+    - name: spotify
+      url: "https://open.spotify.com/user/jkliyehhe56tws6q1zz5d5h6o?si=900d433ae6bb4127"
+    - name: letterboxd
+      url: "https://boxd.it/dBIcn"
+
+  cover:
+  hidden: false
+  hiddenInList: false
+  hiddenInSingle: false
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: projects
+      name: Projects 
+      url: /projects
+      weight: 10
+    
+    - identifier: contact
+      name: Contact 
+      url: mailto:shreyyshreyy464@gmail.com
+      weight: 20
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+
+# ProfileMode settings
+
+  # profileMode:
+  #   enabled: true
+  #   imageUrl: images/norman.jpg
+  #   title: ExampleSite
+  #   subtitle: "subtitle"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  # profile-mode
+  # profileMode:
+  #   enabled: false # needs to be explicitly set
+  #   title: ExampleSite
+  #   subtitle: "This is subtitle"
+  #   imageUrl: "<img location>"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   imageTitle: my image
+  #   buttons:
+  #     - name: Posts
+  #       url: posts
+  #     - name: Tags
+  #       url: tags
