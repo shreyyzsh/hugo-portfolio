@@ -1,22 +1,25 @@
-+++
-date = '2024-12-22T19:16:40+05:30'
-draft = false
-type = 'posts'
+---
+draft: false
 
-title = '''A Beginner's Guide to Gradient Descent - Understanding the Core of Machine Learning Optimization'''
+date: '2024-12-22'
+title: "A Beginner's Guide to Gradient Descent - Understanding the Core of Machine Learning Optimization"
 
-author = "by Shreyy"
+type: "posts"
 
-disableHLJS = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-disableShare = false
-ShowReadingTime = true
+author: ["Shreyy"]
 
-[cover]
-image = "/images/gradient.webp"
-alt = "Cover Photo"
-+++
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+disableShare: false
+ShowReadingTime: true
+showtoc: true
+
+cover:
+    image: "images/gradient.webp"
+    alt: "Cover Photo"
+
+ShareButtons: ["linkedin", "twitter", "reddit", "telegram", "whatsapp"]
+---
 
 In this blog, I will try to explain what exactly is **gradient descent** and it's importance in optimizing machine learning models. Gradient descent is an algorithm (just like million other algorithms that exists in computer science) that is designed to minimize a **cost function**.
 
