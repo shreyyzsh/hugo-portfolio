@@ -2,25 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/projects/nws-claude/</loc>
+    <loc>/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projects/nwsclaudemcp/</loc>
     <lastmod>2025-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/projects/</loc>
     <lastmod>2025-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/projects/iterm2-rpc/</loc>
+    <loc>/projects/itermrpc/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blogs/gradientdescent/</loc>
-    <lastmod>2024-12-22T19:16:40+05:30</lastmod>
+    <loc>/posts/gradient/</loc>
+    <lastmod>2024-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blogs/</loc>
-    <lastmod>2024-12-22T19:16:40+05:30</lastmod>
+    <loc>/posts/</loc>
+    <lastmod>2024-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+  </url><url>
+    <loc>/search/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url>

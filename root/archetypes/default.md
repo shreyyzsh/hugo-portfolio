@@ -1,18 +1,22 @@
-+++
-date = '{{ .Date }}'
-draft = true
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-type = 'posts'
+---
+draft: true
 
-author = "by Shreyy"
+date: '{{ .Date }}'
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 
-disableHLJS = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-disableShare = false
-ShowReadingTime = true
+type: []
 
-[cover]
-image = ""
-alt = "Cover Photo"
-+++
+author: ["Shreyy"]
+
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+disableShare: false
+ShowReadingTime: true
+showtoc: true
+
+cover:
+    image: []
+    alt: "Cover Photo"
+
+ShareButtons: ["linkedin", "twitter", "reddit", "telegram", "whatsapp"]
+---
