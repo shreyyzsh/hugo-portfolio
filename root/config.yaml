@@ -14,9 +14,9 @@ minify:
 params:
   env: production
   title: Shreyy
-  description: "A personal portfolio and blog site built using Hugo by Shreyas Sharma."
+  description: "I'm a pre-final year CS undergraduate and an aspiring ML engineer."
   keywords: ['Blog', 'Portfolio']
-  author: Shreyy
+  author: Shreyas Sharma
   images: []
   DateFormat: "January 2, 2006"
   defaultTheme: auto 
