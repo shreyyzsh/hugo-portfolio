@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on </title>
-    <link>/posts/</link>
+    <link>https://shreyys.vercel.app/posts/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shreyys.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Beginner&#39;s Guide to Gradient Descent - Understanding the Core of Machine Learning Optimization</title>
-      <link>/posts/gradient/</link>
+      <link>https://shreyys.vercel.app/posts/gradient/</link>
       <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/gradient/</guid>
+      <guid>https://shreyys.vercel.app/posts/gradient/</guid>
       <description>&lt;p&gt;In this blog, I will try to explain what exactly is &lt;strong&gt;gradient descent&lt;/strong&gt; and it&amp;rsquo;s importance in optimizing machine learning models. Gradient descent is an algorithm (just like million other algorithms that exists in computer science) that is designed to minimize a &lt;strong&gt;cost function&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;what-is-a-cost-function&#34;&gt;What is a cost function?&lt;/h3&gt;
 &lt;ul&gt;
