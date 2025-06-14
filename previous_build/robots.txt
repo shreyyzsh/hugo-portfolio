@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://shreyys.vercel.app/sitemap.xml

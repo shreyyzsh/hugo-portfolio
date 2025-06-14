@@ -2,3 +2,21 @@
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
+.button {
+    max-width: 180px;
+
+    background: var(--tertiary);
+    border-radius: var(--radius);
+    margin: 8px;
+    padding: 6px;
+    transition: transform 0.1s;
+}
+
+.button-inner {
+    padding: 0 8px;
+}
+
+.button:active {
+    transform: scale(0.96);
+}

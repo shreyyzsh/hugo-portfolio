@@ -14,7 +14,7 @@ minify:
 params:
   env: production
   title: Shreyy
-  description: "I'm a pre-final year CS undergraduate and an aspiring ML engineer."
+  description: "Pre-Final Year CS Undergrad and a ML enthusiast."
   keywords: ['Blog', 'Portfolio']
   author: Shreyas Sharma
   images: []
@@ -48,22 +48,25 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hello. I'm Shreyy"
-    Content: "A pre-final CS undergrad gaslighting machines using my knowledge in Python, JS, and C++"
+    Content: "Computer science engineer, building and shipping as I navigate the chaos of the Internet."
+    buttons: 
+      - name: Checkout my Projects!
+        url: /projects
 
   mainSections:
     - posts
 
   socialIcons:
-    - name: linkedin
-      url: "https://linkedin.com/in/shreyyzsh"
     - name: github
       url: "https://github.com/shreyyzsh"
+    # - name: linkedin
+    #   url: "https://linkedin.com/in/shreyyzsh"
     - name: x
       url: "https://x.com/shreyyzsh"
     - name: spotify
       url: "https://open.spotify.com/user/jkliyehhe56tws6q1zz5d5h6o?si=900d433ae6bb4127"
-    # - name: letterboxd
-    #   url: "https://boxd.it/dBIcn"
+    - name: letterboxd
+      url: "https://boxd.it/dBIcn"
 
   cover:
   hidden: false
@@ -95,7 +98,7 @@ menu:
     
     - identifier: contact
       name: Contact 
-      url: mailto:shreyyshreyy464@gmail.com
+      url: mailto:shreyas.sharma1019@gmail.com
       weight: 30
 
 pygmentsUseClasses: true
@@ -106,7 +109,6 @@ markup:
 outputs:
   home:
     - JSON
-    - RSS
     - HTML
 
     # anchorLineNos: true

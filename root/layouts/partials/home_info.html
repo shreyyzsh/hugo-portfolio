@@ -1,6 +1,6 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-    <img draggable="false" src="/images/norman.jpg" alt="profile image" title="" 
+    <img draggable="false" src="/images/profile.jpg" alt="profile image" title="" 
         height="90" width="90"/>
     <header class="entry-header">
         <h1>{{ .Title | markdownify }}</h1>
@@ -11,5 +11,7 @@
     <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
     </footer>
+
+    <button class="button"><a href="/projects">Check my Projects</a></button>
 </article>
 {{- end -}}
